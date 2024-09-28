@@ -1,0 +1,9 @@
+[submodule "mujoco_ros2_control"]
+	path = mujoco_ros2_control
+	url = https://github.com/moveit/mujoco_ros2_control.git
+[submodule "mujoco_ros2_control_examples"]
+	path = mujoco_ros2_control_examples
+	url = https://github.com/moveit/mujoco_ros2_control_examples.git
+[submodule "pybullet_ur5_gripper"]
+	path = pybullet_ur5_gripper
+	url = https://github.com/culurciello/pybullet_ur5_gripper.git
