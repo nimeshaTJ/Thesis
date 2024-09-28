@@ -1,0 +1,64 @@
+[0.016s] Invoking command in '/home/nimesha/Thesis/mujoco_ros2_control/build/mujoco_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/mujoco_ros2_control/mujoco_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/mujoco_ros2_control/install/mujoco_ros2_control_demos
+[0.343s] -- The C compiler identification is GNU 11.4.0
+[0.554s] -- The CXX compiler identification is GNU 11.4.0
+[0.664s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.762s] -- Detecting C compile features
+[0.764s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.851s] -- Detecting CXX compiler ABI info - done
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.855s] -- Detecting CXX compile features
+[0.855s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake/cmake)
+[1.012s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Found rclcpp: 16.0.10 (/home/nimesha/ros2_humble/ros2-linux/share/rclcpp/cmake)
+[1.255s] -- Found rosidl_generator_c: 3.1.5 (/home/nimesha/ros2_humble/ros2-linux/share/rosidl_generator_c/cmake)
+[1.265s] -- Found rosidl_adapter: 3.1.5 (/home/nimesha/ros2_humble/ros2-linux/share/rosidl_adapter/cmake)
+[1.281s] -- Found rosidl_generator_cpp: 3.1.5 (/home/nimesha/ros2_humble/ros2-linux/share/rosidl_generator_cpp/cmake)
+[1.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.431s] -- Found rmw_implementation_cmake: 6.1.2 (/home/nimesha/ros2_humble/ros2-linux/share/rmw_implementation_cmake/cmake)
+[1.442s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/nimesha/ros2_humble/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[1.490s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.517s] -- Looking for pthread.h
+[1.611s] -- Looking for pthread.h - found
+[1.611s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.688s] -- Found Threads: TRUE  
+[1.736s] -- Found rclcpp_action: 16.0.10 (/home/nimesha/ros2_humble/ros2-linux/share/rclcpp_action/cmake)
+[1.786s] -- Found std_msgs: 4.2.4 (/home/nimesha/ros2_humble/ros2-linux/share/std_msgs/cmake)
+[1.797s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.931s] -- Found ament_lint_auto: 0.12.11 (/home/nimesha/ros2_humble/ros2-linux/share/ament_lint_auto/cmake)
+[1.998s] -- Added test 'clang_format' to check C / C++ code style
+[2.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.001s] -- Configured cppcheck include dirs: 
+[2.001s] -- Configured cppcheck exclude dirs and/or files: 
+[2.001s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.002s] -- Configured cpplint exclude dirs and/or files: 
+[2.004s] -- Added test 'lint_cmake' to check CMake code style
+[2.004s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.006s] -- Configuring done
+[2.025s] -- Generating done
+[2.026s] -- Build files have been written to: /home/nimesha/Thesis/mujoco_ros2_control/build/mujoco_ros2_control_demos
+[2.031s] Invoked command in '/home/nimesha/Thesis/mujoco_ros2_control/build/mujoco_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/mujoco_ros2_control/mujoco_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/mujoco_ros2_control/install/mujoco_ros2_control_demos
+[2.032s] Invoking command in '/home/nimesha/Thesis/mujoco_ros2_control/build/mujoco_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/nimesha/Thesis/mujoco_ros2_control/build/mujoco_ros2_control_demos -- -j32 -l32
+[2.080s] [ 16%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.080s] [ 16%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.082s] [ 25%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.083s] [ 33%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.086s] [ 41%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[2.087s] [ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[5.066s] [ 58%] [32m[1mLinking CXX executable example_velocity[0m
+[5.106s] [ 66%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[5.119s] [ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[5.145s] [ 83%] [32m[1mLinking CXX executable example_diff_drive[0m
+[5.192s] [ 91%] [32m[1mLinking CXX executable example_effort[0m
+[5.408s] [100%] [32m[1mLinking CXX executable example_position[0m
+[5.418s] [100%] Built target example_diff_drive
+[5.418s] [100%] Built target example_velocity
+[5.420s] [100%] Built target example_tricycle_drive
+[5.423s] [100%] Built target example_gripper
+[5.431s] [100%] Built target example_effort
+[5.567s] [100%] Built target example_position
