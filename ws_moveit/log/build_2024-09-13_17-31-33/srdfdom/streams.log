@@ -1,0 +1,104 @@
+[0.044s] Invoking command in '/home/nimesha/thesis/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake /home/nimesha/thesis/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/nimesha/thesis/ws_moveit/install/srdfdom
+[0.353s] -- The CXX compiler identification is GNU 11.4.0
+[0.541s] -- Detecting CXX compiler ABI info
+[0.647s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.683s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.705s] -- Found ament_cmake: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.853s] -- Found urdf: 2.6.0 (/home/nimesha/ros2_humble/ros2-linux/share/urdf/cmake)
+[1.664s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.718s] -- Found ament_cmake_gtest: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake_gtest/cmake)
+[1.720s] -- Found ament_cmake_pytest: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake_pytest/cmake)
+[2.097s] -- Found gtest sources under '/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.176s] -- The C compiler identification is GNU 11.4.0
+[2.332s] -- Detecting C compiler ABI info
+[2.423s] -- Detecting C compiler ABI info - done
+[2.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.428s] -- Detecting C compile features
+[2.428s] -- Detecting C compile features - done
+[2.432s] -- Looking for C++ include pthread.h
+[2.539s] -- Looking for C++ include pthread.h - found
+[2.539s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.647s] -- Found Threads: TRUE  
+[2.649s] -- Found ament_lint_auto: 0.12.11 (/home/nimesha/ros2_humble/ros2-linux/share/ament_lint_auto/cmake)
+[3.369s] -- Configuring done
+[3.379s] -- Generating done
+[3.379s] -- Build files have been written to: /home/nimesha/thesis/ws_moveit/build/srdfdom
+[3.384s] Invoked command in '/home/nimesha/thesis/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake /home/nimesha/thesis/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/nimesha/thesis/ws_moveit/install/srdfdom
+[3.385s] Invoking command in '/home/nimesha/thesis/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake --build /home/nimesha/thesis/ws_moveit/build/srdfdom -- -j32 -l32
+[3.432s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.432s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[3.433s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[3.438s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.442s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[3.672s] running egg_info
+[3.672s] creating srdfdom.egg-info
+[3.673s] writing srdfdom.egg-info/PKG-INFO
+[3.673s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[3.673s] writing top-level names to srdfdom.egg-info/top_level.txt
+[3.673s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[3.674s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[3.675s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[3.696s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[4.147s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.209s] [ 45%] Built target gtest_main
+[7.079s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[7.173s] [ 54%] Built target srdfdom
+[9.861s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.908s] [ 63%] Built target gtest
+[9.927s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[9.928s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[11.502s] [ 90%] [32m[1mLinking CXX executable test_cpp_C[0m
+[11.540s] [100%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[11.595s] [100%] Built target test_cpp_C
+[11.633s] [100%] Built target test_cpp_nl_NL.UTF-8
+[11.640s] Invoked command in '/home/nimesha/thesis/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake --build /home/nimesha/thesis/ws_moveit/build/srdfdom -- -j32 -l32
+[11.680s] Invoking command in '/home/nimesha/thesis/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake --install /home/nimesha/thesis/ws_moveit/build/srdfdom
+[11.684s] -- Install configuration: "Release"
+[11.684s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.4
+[11.685s] -- Set runtime path of "/home/nimesha/thesis/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.4" to ""
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/include/srdfdom
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/include/srdfdom/srdf_writer.h
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/include/srdfdom/model.h
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/include/srdfdom/visibility_control.h
+[11.685s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/lib/srdfdom/display_srdf
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/SOURCES.txt
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/PKG-INFO
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/dependency_links.txt
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info/top_level.txt
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[11.686s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[11.709s] Listing '/home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[11.709s] Compiling '/home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[11.709s] Compiling '/home/nimesha/thesis/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[11.712s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.sh
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/path.sh
+[11.713s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/environment/path.dsv
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/local_setup.bash
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/local_setup.sh
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/local_setup.zsh
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/local_setup.dsv
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/package.dsv
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[11.714s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[11.715s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[11.715s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.715s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[11.715s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[11.715s] -- Installing: /home/nimesha/thesis/ws_moveit/install/srdfdom/share/srdfdom/package.xml
+[11.716s] Invoked command in '/home/nimesha/thesis/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nimesha/thesis/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake --install /home/nimesha/thesis/ws_moveit/build/srdfdom

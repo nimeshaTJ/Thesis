@@ -1,0 +1,43 @@
+[  1%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[  3%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[  4%] [34m[1mAutomatic MOC for target gtest[0m
+[  6%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  7%] [34m[1mAutomatic MOC for target gmock_main[0m
+[  9%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[ 10%] [34m[1mAutomatic MOC for target gmock[0m
+[ 10%] Built target motion_planning_tasks_properties_autogen
+[ 10%] Built target gtest_autogen
+[ 10%] Built target gmock_main_autogen
+[ 10%] Built target motion_planning_tasks_utils_autogen
+[ 10%] Built target moveit_task_visualization_tools_autogen
+[ 10%] Built target gmock_autogen
+[ 10%] Built target gtest_main_autogen
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_properties[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_utils[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[ 15%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_visualization_tools[0m
+[ 23%] Built target motion_planning_tasks_utils
+[ 29%] Built target gmock
+[ 33%] Built target gmock_main
+[ 38%] Built target gtest_main
+[ 44%] Built target motion_planning_tasks_properties
+[ 46%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[ 55%] Built target moveit_task_visualization_tools
+[ 55%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[ 56%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_task_constructor_visualization-test-merge-models[0m
+[ 56%] Built target motion_planning_tasks_rviz_plugin_autogen
+[ 61%] Built target moveit_task_constructor_visualization-test-merge-models
+[35m[1mConsolidate compiler generated dependencies of target motion_planning_tasks_rviz_plugin[0m
+[ 63%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_display.cpp.o[0m
+[ 64%] [32mBuilding CXX object motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_panel.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/build.make:217: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/task_display.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:450: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
