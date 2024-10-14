@@ -1,0 +1,13 @@
+# Goal
+bool request_open_gripper
+bool request_close_gripper
+bool request_greeting
+bool move_robot
+bool check_robot_status
+---
+# Result
+string greeting_message
+int32 goal_id
+---
+# Feedback
+bool robot_moving

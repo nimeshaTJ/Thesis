@@ -15,7 +15,7 @@ CC = gcc
 # LIBS = ../../lib/glfw3dll.lib  ../../lib/mujoco.lib
 # CC = cl
 
-ROOT = thesis
+ROOT = Thesis
 
 all:
 	$(CC) $(COMMON) main.c $(LIBS) -o $(MUJOCO_DIR)/bin/$(ROOT)

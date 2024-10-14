@@ -11,7 +11,7 @@
 #include "string.h"
 
 
-char filename[] = "/home/nimesha/thesis/mujoco_ur5e/ur5e_plus_2f85.xml";
+char filename[] = "/home/nimesha/Thesis/mujoco_ur5e/ur5e_plus_2f85.xml";
 
 // MuJoCo data structures
 mjModel* m = NULL;                  // MuJoCo model
