@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pnp_msgs/action/Robot.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module pnp_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Robot_Goal {
+      geometry_msgs::msg::Pose robot_goal;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Robot_Result {
+      string robot_result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Robot_Feedback {
+      double robot_progress;
+    };
+  };
+};

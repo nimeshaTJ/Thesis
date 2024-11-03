@@ -1,0 +1,1 @@
+rclcpp;std_msgs;trajectory_msgs;moveit;robot_state_publisher;moveit_ros_planning_interface;moveit_ur5_msgs;ur5_gripper_description;ur5_gripper_moveit_config;ur_bringup;joint_state_publisher_gui;ament_lint_auto;ament_lint_common

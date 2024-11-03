@@ -1,0 +1,6 @@
+{
+  "package_name": "moveit_ur5_msgs",
+  "non_idl_tuples": [
+    "/home/nimesha/Thesis/Unused/moveit_ur5_ws/src/ROS2_pick_and_place_UR5/moveit_ur5_msgs:srv/PlanRequest.srv"
+  ]
+}

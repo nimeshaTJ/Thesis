@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pnp_msgs/action/PickAndPlace.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module pnp_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct PickAndPlace_Goal {
+      geometry_msgs::msg::Pose pick_goal;
+
+      geometry_msgs::msg::Pose place_goal;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct PickAndPlace_Result {
+      string pnp_result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct PickAndPlace_Feedback {
+      string pnp_message;
+    };
+  };
+};

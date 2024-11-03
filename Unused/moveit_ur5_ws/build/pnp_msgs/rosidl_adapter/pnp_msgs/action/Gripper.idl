@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pnp_msgs/action/Gripper.action
+// generated code does not contain a copyright notice
+
+
+module pnp_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Gripper_Goal {
+      string gripper_goal;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Gripper_Result {
+      string gripper_result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Gripper_Feedback {
+      double gripper_progress;
+    };
+  };
+};

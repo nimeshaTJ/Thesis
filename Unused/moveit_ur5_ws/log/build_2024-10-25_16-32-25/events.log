@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000444] (-) JobUnselected: {'identifier': 'moveit_ur5_msgs'}
+[0.000494] (-) JobUnselected: {'identifier': 'pnp_actionlib'}
+[0.000518] (-) JobUnselected: {'identifier': 'pnp_msgs'}
+[0.000540] (-) JobUnselected: {'identifier': 'robotiq_2f_bringup'}
+[0.000562] (-) JobUnselected: {'identifier': 'robotiq_2f_description'}
+[0.000595] (-) JobUnselected: {'identifier': 'robotiq_2f_driver'}
+[0.000632] (-) JobUnselected: {'identifier': 'robotiq_2f_driver_ui'}
+[0.000654] (-) JobUnselected: {'identifier': 'robotiq_2f_msgs'}
+[0.000674] (-) JobUnselected: {'identifier': 'robotiq_2f_tfbc'}
+[0.000683] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.000691] (-) JobUnselected: {'identifier': 'ur'}
+[0.000698] (-) JobUnselected: {'identifier': 'ur5_gripper_description'}
+[0.000704] (-) JobUnselected: {'identifier': 'ur5_gripper_moveit_config'}
+[0.000711] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000718] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000724] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000731] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000740] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000759] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000783] (moveit_ur5_interface) JobQueued: {'identifier': 'moveit_ur5_interface', 'dependencies': OrderedDict([('moveit_ur5_msgs', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/moveit_ur5_msgs'), ('robotiq_description', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/robotiq_description'), ('ur_dashboard_msgs', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur_dashboard_msgs'), ('ur5_gripper_description', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur5_gripper_description'), ('ur_controllers', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur_controllers'), ('ur5_gripper_moveit_config', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur5_gripper_moveit_config'), ('ur_bringup', '/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur_bringup')])}
+[0.000814] (moveit_ur5_interface) JobStarted: {'identifier': 'moveit_ur5_interface'}
+[0.010220] (moveit_ur5_interface) JobEnded: {'identifier': 'moveit_ur5_interface', 'rc': 1}
+[0.020674] (-) EventReactorShutdown: {}

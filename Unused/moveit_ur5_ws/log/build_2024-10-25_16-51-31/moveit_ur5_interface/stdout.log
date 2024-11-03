@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target srvcli[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_interface[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/srvcli.dir/src/moveit_pose_client.cpp.o[0m
+[ 33%] Built target moveit_interface

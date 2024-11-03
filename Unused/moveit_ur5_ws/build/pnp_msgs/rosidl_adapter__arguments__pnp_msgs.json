@@ -1,0 +1,8 @@
+{
+  "package_name": "pnp_msgs",
+  "non_idl_tuples": [
+    "/home/nimesha/Thesis/Unused/moveit_ur5_ws/src/ROS2_pick_and_place_UR5/pnp_msgs:action/Robot.action",
+    "/home/nimesha/Thesis/Unused/moveit_ur5_ws/src/ROS2_pick_and_place_UR5/pnp_msgs:action/Gripper.action",
+    "/home/nimesha/Thesis/Unused/moveit_ur5_ws/src/ROS2_pick_and_place_UR5/pnp_msgs:action/PickAndPlace.action"
+  ]
+}

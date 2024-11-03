@@ -1,0 +1,42 @@
+[0.011s] Invoking command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/Unused/moveit_ur5_ws/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.262s] -- The CXX compiler identification is GNU 11.4.0
+[0.401s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.490s] -- Detecting C compile features
+[0.491s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.582s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.586s] -- Detecting CXX compile features
+[0.586s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.774s] -- Found ament_lint_auto: 0.12.11 (/home/nimesha/ros2_humble/ros2-linux/share/ament_lint_auto/cmake)
+[0.840s] -- Added test 'lint_cmake' to check CMake code style
+[0.840s] -- Added test 'xmllint' to check XML markup files
+[0.842s] -- Configuring done
+[0.844s] -- Generating done
+[0.844s] -- Build files have been written to: /home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur
+[0.847s] Invoked command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/Unused/moveit_ur5_ws/src/Universal_Robots_ROS2_Driver/ur -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur
+[0.848s] Invoking command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur -- -j32 -l32
+[0.880s] Invoked command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur -- -j32 -l32
+[0.915s] Invoking command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur
+[0.920s] -- Install configuration: ""
+[0.921s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[0.921s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[0.923s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+[0.923s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+[0.923s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/environment/path.sh
+[0.924s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/environment/path.dsv
+[0.924s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/local_setup.bash
+[0.924s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/local_setup.sh
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/local_setup.zsh
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/local_setup.dsv
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/package.dsv
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ament_index/resource_index/packages/ur
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/cmake/urConfig.cmake
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+[0.925s] -- Installing: /home/nimesha/Thesis/Unused/moveit_ur5_ws/install/ur/share/ur/package.xml
+[0.925s] Invoked command in '/home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/nimesha/Thesis/Unused/moveit_ur5_ws/build/ur
