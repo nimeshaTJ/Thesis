@@ -1,0 +1,16 @@
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:[m[K In member function ‘[01m[Kvoid MTCTaskNode::setupPlanningScene()[m[K’:
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:86:28:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose target1_pose[m[K’
+   86 |   geometry_msgs::msg::Pose [01;31m[Ktarget1_pose[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:67:28:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose target1_pose[m[K’ previously declared here
+   67 |   geometry_msgs::msg::Pose [01;36m[Ktarget1_pose[m[K;
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:104:28:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose target1_pose[m[K’
+  104 |   geometry_msgs::msg::Pose [01;31m[Ktarget1_pose[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:67:28:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Pose target1_pose[m[K’ previously declared here
+   67 |   geometry_msgs::msg::Pose [01;36m[Ktarget1_pose[m[K;
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mtc_tutorial.dir/build.make:76: CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

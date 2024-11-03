@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common
+[0.154s] -- Found ament_cmake: 1.3.10 (/home/nimesha/ros2_humble/ros2-linux/share/ament_cmake/cmake)
+[0.278s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.387s] -- Found ament_lint_auto: 0.12.11 (/home/nimesha/ros2_humble/ros2-linux/share/ament_lint_auto/cmake)
+[0.453s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.457s] -- Added test 'lint_cmake' to check CMake code style
+[0.458s] -- Added test 'xmllint' to check XML markup files
+[0.462s] -- Configuring done
+[0.467s] -- Generating done
+[0.468s] -- Build files have been written to: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common
+[0.478s] Invoked command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common
+[0.480s] Invoking command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common -- -j32 -l32
+[0.503s] Invoked command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common -- -j32 -l32
+[0.532s] Invoking command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common
+[0.536s] -- Install configuration: "Release"
+[0.537s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.537s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.537s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[0.537s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[0.538s] -- Up-to-date: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/cmake
+[0.538s] -- Installing: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[0.540s] Invoked command in '/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimesha/Thesis/ws_moveit/install/moveit_configs_utils:/home/nimesha/Thesis/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_common

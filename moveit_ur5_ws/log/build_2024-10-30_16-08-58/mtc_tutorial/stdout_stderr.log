@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target mtc_tutorial[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o[0m
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:361:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto allow_collision_target1[m[K’
+  361 |   auto [01;31m[Kallow_collision_target1[m[K = std::make_unique<mtc::stages::ModifyPlanningScene>("allow collision (hand, target1)");
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:312:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::unique_ptr<moveit::task_constructor::stages::ModifyPlanningScene, std::default_delete<moveit::task_constructor::stages::ModifyPlanningScene> > allow_collision_target1[m[K’
+  312 |   auto [01;36m[Kallow_collision_target1[m[K = std::make_unique<mtc::stages::ModifyPlanningScene>("allow collision (hand, target1)");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:370:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto stage_close_hand[m[K’
+  370 |   auto [01;31m[Kstage_close_hand[m[K = std::make_unique<mtc::stages::MoveTo>("close hand", sampling_planner);
+      |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/mtc_tutorial.cpp:321:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::unique_ptr<moveit::task_constructor::stages::MoveTo, std::default_delete<moveit::task_constructor::stages::MoveTo> > stage_close_hand[m[K’
+  321 |   auto [01;36m[Kstage_close_hand[m[K = std::make_unique<mtc::stages::MoveTo>("close hand", sampling_planner);
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mtc_tutorial.dir/build.make:76: CMakeFiles/mtc_tutorial.dir/src/mtc_tutorial.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mtc_tutorial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

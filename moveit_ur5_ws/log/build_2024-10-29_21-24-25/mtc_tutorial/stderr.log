@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial/src/py_test.py": No
+  such file or directory.
+
+[0m

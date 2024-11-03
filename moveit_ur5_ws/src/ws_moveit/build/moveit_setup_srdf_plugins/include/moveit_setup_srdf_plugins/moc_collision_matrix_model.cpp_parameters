@@ -1,0 +1,4 @@
+-DROS_PACKAGE_NAME="moveit_setup_srdf_plugins"
+-o
+/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/build/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/moc_collision_matrix_model.cpp
+/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_matrix_model.hpp
