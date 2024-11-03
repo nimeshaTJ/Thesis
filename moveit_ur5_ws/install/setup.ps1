@@ -23,7 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nimesha/ros2_humble/ros2-linux\local_setup.ps1"
 
 # source this prefix

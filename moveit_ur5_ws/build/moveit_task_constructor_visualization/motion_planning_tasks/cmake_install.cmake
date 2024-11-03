@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_visualization")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_visualization")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/utils/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/properties/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/test/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/utils/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/properties/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/test/cmake_install.cmake")
 
 endif()
 

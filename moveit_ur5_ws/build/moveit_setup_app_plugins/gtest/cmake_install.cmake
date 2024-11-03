@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_app_plugins")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_app_plugins")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

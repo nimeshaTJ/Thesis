@@ -1,5 +1,5 @@
 test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/test/test_cost_queue.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/test/test_cost_queue.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -117,7 +117,7 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/cost_queue.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/cost_queue.h \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
@@ -189,10 +189,10 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/storage.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/class_forward.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/storage.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/class_forward.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h \
  /usr/include/boost/any.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \
@@ -314,8 +314,8 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
@@ -354,19 +354,19 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
@@ -402,14 +402,14 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp \
@@ -417,7 +417,7 @@ test/CMakeFiles/moveit_task_constructor_core-test-cost-queue.dir/test_cost_queue
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/utils.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/utils.h \
  /usr/include/eigen3/Eigen/Geometry /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \

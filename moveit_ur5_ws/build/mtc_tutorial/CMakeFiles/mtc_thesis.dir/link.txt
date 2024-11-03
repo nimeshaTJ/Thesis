@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mtc_thesis.dir/src/mtc_thesis.cpp.o -o mtc_thesis 

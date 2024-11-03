@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/mtc_tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/mtc_tutorial
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/mtc_tutorial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/mtc_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_v2_ws/src/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_v2_ws/build/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_v2_ws/build/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_v2_ws/build/mtc_tutorial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/mtc_tutorial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_ws/src/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_ws/build/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_ws/build/mtc_tutorial /home/nimesha/Thesis/moveit_ur5_ws/build/mtc_tutorial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_kinematics")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_kinematics")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,13 +44,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE PROGRAM FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/auto_create_ikfast_moveit_plugin.sh"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/round_collada_numbers.py"
+    "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/auto_create_ikfast_moveit_plugin.sh"
+    "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py"
+    "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/scripts/round_collada_numbers.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics/ikfast_kinematics_plugin" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/templates")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics/ikfast_kinematics_plugin" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/ikfast_kinematics_plugin/templates")
 endif()
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros
 
 # Utility rule file for moveit_ros_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/moveit_ros_uninstall.dir/compiler_depend.make
 include CMakeFiles/moveit_ros_uninstall.dir/progress.make
 
 CMakeFiles/moveit_ros_uninstall:
-	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 moveit_ros_uninstall: CMakeFiles/moveit_ros_uninstall
 moveit_ros_uninstall: CMakeFiles/moveit_ros_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/moveit_ros_uninstall.dir/clean:
 .PHONY : CMakeFiles/moveit_ros_uninstall.dir/clean
 
 CMakeFiles/moveit_ros_uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros/CMakeFiles/moveit_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_ros /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros/CMakeFiles/moveit_ros_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/moveit_ros_uninstall.dir/depend
 

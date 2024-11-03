@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/moveit_setup_framework_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/moveit_setup_framework_plugins.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/templates")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/templates")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_setup_framework.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/libmoveit_setup_framework.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/libmoveit_setup_framework.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_setup_framework.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_setup_framework.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_setup_framework.so"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_visualization/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_robot_interaction/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_move_group/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_visualization/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_robot_interaction/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_move_group/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_setup_framework.so")
@@ -86,15 +86,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/moveit_setup_framework_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/moveit_setup_framework_plugins.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit_setup_framework")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit_setup_framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit_setup_framework")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit_setup_framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -102,7 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,42 +110,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/packages/moveit_setup_framework")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/packages/moveit_setup_framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_framework")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_index/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake"
-         "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake")
+         "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -154,33 +154,33 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/CMakeFiles/Export/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework/cmake" TYPE FILE FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_core/moveit_setup_frameworkConfig.cmake"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/ament_cmake_core/moveit_setup_frameworkConfig-version.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_core/moveit_setup_frameworkConfig.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/ament_cmake_core/moveit_setup_frameworkConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_setup_framework" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -191,5 +191,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_framework/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_framework/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

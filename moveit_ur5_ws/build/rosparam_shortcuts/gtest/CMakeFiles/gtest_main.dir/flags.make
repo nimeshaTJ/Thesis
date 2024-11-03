@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include
 
 CXX_FLAGS = -std=c++17
 

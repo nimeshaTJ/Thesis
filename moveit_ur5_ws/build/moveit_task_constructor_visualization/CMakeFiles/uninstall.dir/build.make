@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

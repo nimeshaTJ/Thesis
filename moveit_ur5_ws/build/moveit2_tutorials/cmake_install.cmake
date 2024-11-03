@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2_tutorials
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit2_tutorials")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit2_tutorials")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,66 +63,66 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/moveit2_tutorials")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_index/share/ament_index/resource_index/packages/moveit2_tutorials")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials/cmake" TYPE FILE FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_core/moveit2_tutorialsConfig.cmake"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/ament_cmake_core/moveit2_tutorialsConfig-version.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_core/moveit2_tutorialsConfig.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/ament_cmake_core/moveit2_tutorialsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2_tutorials/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2_tutorials/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/tutorials/quickstart_in_rviz/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/tutorials/pick_and_place_with_moveit_task_constructor/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/motion_planning_api/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/move_group_interface/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/planning_scene/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/planning_scene_ros_api/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/robot_model_and_robot_state/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/moveit_cpp/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/realtime_servo/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/how_to_guides/chomp_planner/cmake_install.cmake")
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/how_to_guides/using_ompl_constrained_planning/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/tutorials/quickstart_in_rviz/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/tutorials/pick_and_place_with_moveit_task_constructor/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/motion_planning_api/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/move_group_interface/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/planning_scene/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/planning_scene_ros_api/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/robot_model_and_robot_state/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/moveit_cpp/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/realtime_servo/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/how_to_guides/chomp_planner/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/how_to_guides/using_ompl_constrained_planning/cmake_install.cmake")
 
 endif()
 
@@ -134,5 +134,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_kinematics")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_kinematics")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,15 +44,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_kinematics/gtest/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_kinematics/gtest/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_kinematics/test/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,12 +62,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/benchmark_ik"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_kinematics/test/benchmark_ik")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_kinematics/test/benchmark_ik")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/benchmark_ik" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/benchmark_ik")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/benchmark_ik"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/benchmark_ik")
@@ -82,12 +82,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/test_kinematics_plugin"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_kinematics/test/test_kinematics_plugin")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_kinematics/test/test_kinematics_plugin")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/test_kinematics_plugin" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/test_kinematics_plugin")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/test_kinematics_plugin"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_kinematics/kdl_kinematics_plugin:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_kinematics/kdl_kinematics_plugin:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics/test_kinematics_plugin")

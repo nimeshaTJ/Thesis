@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

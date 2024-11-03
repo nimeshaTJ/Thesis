@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization
 
 # Utility rule file for motion_planning_tasks_rviz_plugin_autogen.
 
@@ -67,8 +67,8 @@ include motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_a
 include motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/progress.make
 
 motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target motion_planning_tasks_rviz_plugin"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target motion_planning_tasks_rviz_plugin"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/AutogenInfo.json Release
 
 motion_planning_tasks_rviz_plugin_autogen: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen
 motion_planning_tasks_rviz_plugin_autogen: motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/build.make
@@ -79,10 +79,10 @@ motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.d
 .PHONY : motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/build
 
 motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src && $(CMAKE_COMMAND) -P CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src && $(CMAKE_COMMAND) -P CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/cmake_clean.cmake
 .PHONY : motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/clean
 
 motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization/motion_planning_tasks/src /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : motion_planning_tasks/src/CMakeFiles/motion_planning_tasks_rviz_plugin_autogen.dir/depend
 

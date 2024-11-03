@@ -1,5 +1,5 @@
 CMakeFiles/moveit_setup_assistant.dir/include/moveit_setup_assistant/moc_navigation_widget.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_assistant/include/moveit_setup_assistant/moc_navigation_widget.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_assistant/include/moveit_setup_assistant/moc_navigation_widget.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -117,7 +117,7 @@ CMakeFiles/moveit_setup_assistant.dir/include/moveit_setup_assistant/moc_navigat
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_assistant/include/moveit_setup_assistant/../../../../src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant/include/moveit_setup_assistant/navigation_widget.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_assistant/include/moveit_setup_assistant/../../../../src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant/include/moveit_setup_assistant/navigation_widget.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

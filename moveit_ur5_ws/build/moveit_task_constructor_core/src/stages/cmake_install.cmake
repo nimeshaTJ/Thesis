@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/src/stages
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/src/stages
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_core")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_core")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stages.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core/src/stages/libmoveit_task_constructor_core_stages.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core/src/stages/libmoveit_task_constructor_core_stages.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stages.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stages.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stages.so"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core/src:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_move_group/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/rviz_marker_tools/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core/src:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_move_group/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_ws/install/rviz_marker_tools/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stages.so")
@@ -72,12 +72,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stage_plugins.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core/src/stages/libmoveit_task_constructor_core_stage_plugins.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core/src/stages/libmoveit_task_constructor_core_stage_plugins.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stage_plugins.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stage_plugins.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stage_plugins.so"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core/src/stages:/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_core/src:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/rviz_marker_tools/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_move_group/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core/src/stages:/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_core/src:/home/nimesha/Thesis/moveit_ur5_ws/install/rviz_marker_tools/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_move_group/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_task_constructor_core_stage_plugins.so")

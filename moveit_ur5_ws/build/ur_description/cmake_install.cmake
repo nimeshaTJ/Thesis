@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/ur_description")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/ur_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,23 +43,23 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/urdf" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/urdf" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/urdf/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/meshes" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/meshes" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/config" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/config" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,7 +67,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,42 +75,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/packages/ur_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_index/share/ament_index/resource_index/packages/ur_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description/cmake" TYPE FILE FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_core/ur_descriptionConfig.cmake"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/ament_cmake_core/ur_descriptionConfig-version.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_core/ur_descriptionConfig.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/ament_cmake_core/ur_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur_description" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/universal_robot/ur_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -121,5 +121,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nimesha/Thesis/moveit_ur5_ws/build/ur_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

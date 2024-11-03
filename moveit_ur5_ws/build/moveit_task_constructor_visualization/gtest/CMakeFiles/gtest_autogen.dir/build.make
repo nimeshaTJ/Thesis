@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization
 
 # Utility rule file for gtest_autogen.
 
@@ -67,8 +67,8 @@ include gtest/CMakeFiles/gtest_autogen.dir/compiler_depend.make
 include gtest/CMakeFiles/gtest_autogen.dir/progress.make
 
 gtest/CMakeFiles/gtest_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/gtest && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/gtest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/gtest && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/gtest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json Release
 
 gtest_autogen: gtest/CMakeFiles/gtest_autogen
 gtest_autogen: gtest/CMakeFiles/gtest_autogen.dir/build.make
@@ -79,10 +79,10 @@ gtest/CMakeFiles/gtest_autogen.dir/build: gtest_autogen
 .PHONY : gtest/CMakeFiles/gtest_autogen.dir/build
 
 gtest/CMakeFiles/gtest_autogen.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_autogen.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_autogen.dir/cmake_clean.cmake
 .PHONY : gtest/CMakeFiles/gtest_autogen.dir/clean
 
 gtest/CMakeFiles/gtest_autogen.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/gtest /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/gtest/CMakeFiles/gtest_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/visualization /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/gtest /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/gtest/CMakeFiles/gtest_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest_autogen.dir/depend
 

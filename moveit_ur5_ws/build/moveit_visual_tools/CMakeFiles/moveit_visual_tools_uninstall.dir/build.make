@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_visual_tools
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_visual_tools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools
 
 # Utility rule file for moveit_visual_tools_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/moveit_visual_tools_uninstall.dir/compiler_depend.make
 include CMakeFiles/moveit_visual_tools_uninstall.dir/progress.make
 
 CMakeFiles/moveit_visual_tools_uninstall:
-	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 moveit_visual_tools_uninstall: CMakeFiles/moveit_visual_tools_uninstall
 moveit_visual_tools_uninstall: CMakeFiles/moveit_visual_tools_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/moveit_visual_tools_uninstall.dir/clean:
 .PHONY : CMakeFiles/moveit_visual_tools_uninstall.dir/clean
 
 CMakeFiles/moveit_visual_tools_uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_visual_tools/CMakeFiles/moveit_visual_tools_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_visual_tools/CMakeFiles/moveit_visual_tools_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/moveit_visual_tools_uninstall.dir/depend
 

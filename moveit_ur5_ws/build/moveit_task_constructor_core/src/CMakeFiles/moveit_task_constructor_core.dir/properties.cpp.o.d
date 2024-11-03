@@ -1,7 +1,7 @@
 src/CMakeFiles/moveit_task_constructor_core.dir/properties.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/src/properties.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/src/properties.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/core/include/moveit/task_constructor/properties.h \
  /usr/include/boost/any.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo
 
 # Utility rule file for pick_place_demo_parameters.
 
@@ -66,9 +66,9 @@ include CMakeFiles/pick_place_demo_parameters.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/pick_place_demo_parameters.dir/progress.make
 
-pick_place_demo_parameters/include/pick_place_demo_parameters.hpp: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo/pick_place_demo_parameters/include//pick_place_demo_parameters.hpp /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml \`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo/pick_place_demo_parameters/include//pick_place_demo_parameters.hpp /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml
+pick_place_demo_parameters/include/pick_place_demo_parameters.hpp: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo/pick_place_demo_parameters/include//pick_place_demo_parameters.hpp /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml \`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo/pick_place_demo_parameters/include//pick_place_demo_parameters.hpp /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml
 
 pick_place_demo_parameters: pick_place_demo_parameters/include/pick_place_demo_parameters.hpp
 pick_place_demo_parameters: CMakeFiles/pick_place_demo_parameters.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/pick_place_demo_parameters.dir/clean:
 .PHONY : CMakeFiles/pick_place_demo_parameters.dir/clean
 
 CMakeFiles/pick_place_demo_parameters.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit_task_constructor/demo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_demo/CMakeFiles/pick_place_demo_parameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit_task_constructor/demo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_demo/CMakeFiles/pick_place_demo_parameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pick_place_demo_parameters.dir/depend
 

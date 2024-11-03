@@ -1,8 +1,8 @@
 robot_model/CMakeFiles/moveit_robot_model.dir/src/prismatic_joint_model.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/src/prismatic_joint_model.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/src/prismatic_joint_model.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/joint_model.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

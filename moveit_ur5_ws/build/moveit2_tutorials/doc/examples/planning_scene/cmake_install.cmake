@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2_tutorials/doc/examples/planning_scene
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2_tutorials/doc/examples/planning_scene
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit2_tutorials")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit2_tutorials")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials/planning_scene_tutorial"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit2_tutorials/doc/examples/planning_scene/planning_scene_tutorial")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/moveit2_tutorials/doc/examples/planning_scene/planning_scene_tutorial")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials/planning_scene_tutorial" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials/planning_scene_tutorial")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials/planning_scene_tutorial"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_visual_tools/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_servo/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_move_group/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib:/opt/ros/humble/lib:/home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/rviz_marker_tools/lib:/home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_visual_tools/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_servo/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_core/lib:/home/nimesha/ros2_humble/ros2-linux/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning_interface/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_move_group/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_warehouse/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib:/opt/ros/humble/lib:/home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/nimesha/Thesis/moveit_ur5_ws/install/rviz_marker_tools/lib:/home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit2_tutorials/planning_scene_tutorial")
@@ -63,6 +63,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2_tutorials/doc/examples/planning_scene/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit2_tutorials" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2_tutorials/doc/examples/planning_scene/launch")
 endif()
 

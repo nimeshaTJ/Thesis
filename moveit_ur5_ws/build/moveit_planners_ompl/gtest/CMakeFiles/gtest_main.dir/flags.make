@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_planners/ompl/ompl_interface/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include -isystem /opt/ros/humble/include/ompl-1.6 -isystem /usr/include/eigen3
+CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_planners/ompl/ompl_interface/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include -isystem /opt/ros/humble/include/ompl-1.6 -isystem /usr/include/eigen3
 
 CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -Wwrite-strings -Wunreachable-code -Wpointer-arith -Wredundant-decls -Wcast-qual -Wno-maybe-uninitialized -Wno-overloaded-virtual -std=c++17
 

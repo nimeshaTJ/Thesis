@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/robot_moveit_config
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/robot_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config
 
 # Utility rule file for robot_moveit_config_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_moveit_config_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_moveit_config_uninstall.dir/progress.make
 
 CMakeFiles/robot_moveit_config_uninstall:
-	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_moveit_config_uninstall: CMakeFiles/robot_moveit_config_uninstall
 robot_moveit_config_uninstall: CMakeFiles/robot_moveit_config_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_moveit_config_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_moveit_config_uninstall.dir/clean
 
 CMakeFiles/robot_moveit_config_uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_v2_ws/src/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_v2_ws/build/robot_moveit_config/CMakeFiles/robot_moveit_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_ws/src/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config /home/nimesha/Thesis/moveit_ur5_ws/build/robot_moveit_config/CMakeFiles/robot_moveit_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_moveit_config_uninstall.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/moveit_setup_framework.dir/src/xml_syntax_highlighter.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/src/xml_syntax_highlighter.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/src/xml_syntax_highlighter.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/moveit_setup_framework/qt/xml_syntax_highlighter.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/moveit_setup_framework/qt/xml_syntax_highlighter.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QSyntaxHighlighter \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qsyntaxhighlighter.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \

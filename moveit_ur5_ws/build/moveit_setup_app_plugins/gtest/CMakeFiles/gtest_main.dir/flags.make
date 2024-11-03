@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_NO_KEYWORDS -DROS_PACKAGE_NAME=\"moveit_setup_app_plugins\"
 
-CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest/gtest_main_autogen/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest/gtest_main_autogen/include -I/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/. -isystem /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor/include
 
 CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -Wwrite-strings -Wunreachable-code -Wpointer-arith -Wredundant-decls -Wcast-qual -Wno-maybe-uninitialized -std=c++17
 

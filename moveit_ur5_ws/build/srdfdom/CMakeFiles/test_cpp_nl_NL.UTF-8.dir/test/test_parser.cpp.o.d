@@ -1,7 +1,7 @@
 CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/test/test_parser.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/test/test_parser.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/model.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -233,8 +233,8 @@ CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/visibility_control.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/srdf_writer.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/visibility_control.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/srdf_writer.h \
  /home/nimesha/ros2_humble/ros2-linux/include/urdfdom/urdf_parser/urdf_parser.h \
  /usr/include/tinyxml.h /usr/include/c++/11/stdlib.h \
  /usr/include/assert.h /usr/include/c++/11/iostream \

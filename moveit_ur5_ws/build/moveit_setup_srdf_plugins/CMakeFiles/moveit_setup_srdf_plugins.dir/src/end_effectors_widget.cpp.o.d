@@ -1,7 +1,7 @@
 CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/src/end_effectors_widget.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/src/end_effectors_widget.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -320,7 +320,7 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/setup_step_widget.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/setup_step_widget.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rclcpp/rclcpp/node.hpp \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/std_mutex.h \
@@ -647,11 +647,11 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /home/nimesha/ros2_humble/ros2-linux/include/rclcpp/rclcpp/create_timer.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/setup_step.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/data_warehouse.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/config.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/generated_file.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/utilities.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/setup_step.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/data_warehouse.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/config.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/generated_file.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/utilities.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
  /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \
@@ -681,14 +681,14 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /usr/include/yaml-cpp/node/convert.h \
  /usr/include/yaml-cpp/node/detail/impl.h \
  /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/generated_time.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/class_forward.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/generated_time.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/class_forward.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/templates.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/templates.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/pluginlib/pluginlib/class_loader.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/class_loader/class_loader/multi_library_class_loader.hpp \
  /usr/include/console_bridge/console.h \
@@ -724,7 +724,7 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/rviz_panel.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/rviz_panel.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rviz_common/rviz_common/render_panel.hpp \
  /home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h \
  /home/nimesha/ros2_humble/ros2-linux/opt/rviz_ogre_vendor/include/OGRE/OgreVector.h \
@@ -968,11 +968,11 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /opt/ros/humble/include/srdfdom/model.h \
  /opt/ros/humble/include/srdfdom/visibility_control.h \
  /opt/ros/humble/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/exceptions/exceptions.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_state/robot_state.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/robot_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/exceptions/exceptions.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/joint_model.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
@@ -1301,25 +1301,25 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/link_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/link_model.h \
  /opt/ros/humble/include/eigen_stl_containers/eigen_stl_vector_container.h \
  /usr/include/eigen3/Eigen/Core /usr/include/eigen3/Eigen/StdVector \
  /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
  /usr/include/eigen3/Eigen/src/StlSupport/details.h \
  /opt/ros/humble/include/geometric_shapes/check_isometry.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__builder.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit_kinematics_base_export.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/floating_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/planar_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_state/attached_body.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/transforms/transforms.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit_kinematics_base_export.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/fixed_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/floating_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/planar_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/revolute_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_model/prismatic_joint_model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_state/attached_body.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/transforms/transforms.h \
  /opt/ros/humble/include/eigen_stl_containers/eigen_stl_containers.h \
  /opt/ros/humble/include/eigen_stl_containers/eigen_stl_map_container.h \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
@@ -1523,15 +1523,15 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/data/srdf_config.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/data/urdf_config.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/collision_env.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/collision_common.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/data/srdf_config.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/data/urdf_config.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/collision_detector_allocator.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/collision_env.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/collision_matrix.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/collision_common.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__struct.hpp \
@@ -1546,9 +1546,9 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__builder.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/world.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/collision_detection/world_diff.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/world.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/collision_detection/world_diff.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h \
  /opt/ros/humble/include/geometric_shapes/bodies.h \
  /opt/ros/humble/include/geometric_shapes/aabb.h \
  /opt/ros/humble/include/geometric_shapes/shapes.h \
@@ -1566,7 +1566,7 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/bounding_volume__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/robot_trajectory/robot_trajectory.h \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
@@ -1593,9 +1593,9 @@ CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o: \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__traits.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/octomap_with_pose.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__builder.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit_planning_scene_export.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit_planning_scene_export.h \
  /opt/ros/humble/include/srdfdom/srdf_writer.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/helper_widgets.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_setup_framework/include/moveit_setup_framework/qt/helper_widgets.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \

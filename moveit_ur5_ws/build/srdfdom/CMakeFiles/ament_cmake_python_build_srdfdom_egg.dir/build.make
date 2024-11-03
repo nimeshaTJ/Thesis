@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom
 
 # Utility rule file for ament_cmake_python_build_srdfdom_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_srdfdom_egg:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_python/srdfdom && /usr/bin/python3 setup.py egg_info
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_python/srdfdom && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_srdfdom_egg: CMakeFiles/ament_cmake_python_build_srdfdom_egg
 ament_cmake_python_build_srdfdom_egg: CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom /home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom /home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_srdfdom_egg.dir/depend
 

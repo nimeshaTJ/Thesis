@@ -1,7 +1,7 @@
 version/CMakeFiles/moveit_version.dir/version.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_core/version/version.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_core/version/version.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_core/include/moveit/version.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_core/include/moveit/version.h \
  /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

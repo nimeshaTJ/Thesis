@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so.2.0.4"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/libsrdfdom.so.2.0.4")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/libsrdfdom.so.2.0.4")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so.2.0.4" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so.2.0.4")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/libsrdfdom.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/libsrdfdom.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrdfdom.so")
     file(RPATH_CHANGE
@@ -83,34 +83,34 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srdfdom" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srdfdom" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srdfdom" TYPE PROGRAM FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/scripts/display_srdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/srdfdom" TYPE PROGRAM FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/scripts/display_srdf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_python/srdfdom/srdfdom.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/srdfdom-2.0.4-py3.10.egg-info" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_python/srdfdom/srdfdom.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/srdfdom" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/srdfdom/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/srdfdom" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/srdfdom/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom"
+        "/home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom"
       )
 endif()
 
@@ -119,15 +119,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/srdfdom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/srdfdom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/srdfdom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/srdfdom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -135,7 +135,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -143,38 +143,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/packages/srdfdom")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_index/share/ament_index/resource_index/packages/srdfdom")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake/srdfdomTargetsExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake/srdfdomTargetsExport.cmake"
-         "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport.cmake")
+         "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake/srdfdomTargetsExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -183,34 +183,34 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/CMakeFiles/Export/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom/cmake" TYPE FILE FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_core/srdfdomConfig.cmake"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/ament_cmake_core/srdfdomConfig-version.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_core/srdfdomConfig.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/ament_cmake_core/srdfdomConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/srdfdom" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/gtest/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/gtest/cmake_install.cmake")
 
 endif()
 
@@ -222,5 +222,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/srdfdom/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nimesha/Thesis/moveit_ur5_ws/build/srdfdom/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

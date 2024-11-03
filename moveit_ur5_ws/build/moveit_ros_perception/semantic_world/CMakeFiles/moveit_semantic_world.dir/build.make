@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception
 
 # Include any dependencies generated for this target.
 include semantic_world/CMakeFiles/moveit_semantic_world.dir/depend.make
@@ -70,18 +70,18 @@ include semantic_world/CMakeFiles/moveit_semantic_world.dir/progress.make
 include semantic_world/CMakeFiles/moveit_semantic_world.dir/flags.make
 
 semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o: semantic_world/CMakeFiles/moveit_semantic_world.dir/flags.make
-semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp
+semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp
 semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o: semantic_world/CMakeFiles/moveit_semantic_world.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o -MF CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o.d -o CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o -c /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o -MF CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o.d -o CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o -c /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp
 
 semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.i"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp > CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.i
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp > CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.i
 
 semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.s"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp -o CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.s
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world/src/semantic_world.cpp -o CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.s
 
 # Object files for target moveit_semantic_world
 moveit_semantic_world_OBJECTS = \
@@ -92,18 +92,18 @@ moveit_semantic_world_EXTERNAL_OBJECTS =
 
 semantic_world/libmoveit_semantic_world.so.2.5.5: semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o
 semantic_world/libmoveit_semantic_world.so.2.5.5: semantic_world/CMakeFiles/moveit_semantic_world.dir/build.make
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
@@ -155,21 +155,21 @@ semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/liblifecycle_msgs__rosidl_generator_c.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /opt/ros/humble/lib/librsl.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libkdl_parser.so
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libccd.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libm.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so.1.9.8
 semantic_world/libmoveit_semantic_world.so.2.5.5: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so.1.9.8
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libtf2_ros.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libtf2.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libmessage_filters.so
@@ -183,10 +183,10 @@ semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libtf2_msgs__rosidl_generator_py.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libtf2_msgs__rosidl_typesupport_c.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libtf2_msgs__rosidl_generator_c.so
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_utils.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /opt/ros/humble/lib/libgeometric_shapes.so.2.1.3
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/librclcpp.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/liblibstatistics_collector.so
@@ -337,7 +337,7 @@ semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
-semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/liburdf.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libament_index_cpp.so
 semantic_world/libmoveit_semantic_world.so.2.5.5: /home/nimesha/ros2_humble/ros2-linux/lib/libclass_loader.so
@@ -378,9 +378,9 @@ semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libo
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 semantic_world/libmoveit_semantic_world.so.2.5.5: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 semantic_world/libmoveit_semantic_world.so.2.5.5: semantic_world/CMakeFiles/moveit_semantic_world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libmoveit_semantic_world.so"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_semantic_world.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -E cmake_symlink_library libmoveit_semantic_world.so.2.5.5 libmoveit_semantic_world.so.2.5.5 libmoveit_semantic_world.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libmoveit_semantic_world.so"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_semantic_world.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -E cmake_symlink_library libmoveit_semantic_world.so.2.5.5 libmoveit_semantic_world.so.2.5.5 libmoveit_semantic_world.so
 
 semantic_world/libmoveit_semantic_world.so: semantic_world/libmoveit_semantic_world.so.2.5.5
 	@$(CMAKE_COMMAND) -E touch_nocreate semantic_world/libmoveit_semantic_world.so
@@ -390,10 +390,10 @@ semantic_world/CMakeFiles/moveit_semantic_world.dir/build: semantic_world/libmov
 .PHONY : semantic_world/CMakeFiles/moveit_semantic_world.dir/build
 
 semantic_world/CMakeFiles/moveit_semantic_world.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -P CMakeFiles/moveit_semantic_world.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world && $(CMAKE_COMMAND) -P CMakeFiles/moveit_semantic_world.dir/cmake_clean.cmake
 .PHONY : semantic_world/CMakeFiles/moveit_semantic_world.dir/clean
 
 semantic_world/CMakeFiles/moveit_semantic_world.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_perception/semantic_world/CMakeFiles/moveit_semantic_world.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/perception/semantic_world /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_perception/semantic_world/CMakeFiles/moveit_semantic_world.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : semantic_world/CMakeFiles/moveit_semantic_world.dir/depend
 

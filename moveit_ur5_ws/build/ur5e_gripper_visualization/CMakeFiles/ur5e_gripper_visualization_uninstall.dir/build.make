@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization
 
 # Utility rule file for ur5e_gripper_visualization_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ur5e_gripper_visualization_uninstall.dir/compiler_depend.make
 include CMakeFiles/ur5e_gripper_visualization_uninstall.dir/progress.make
 
 CMakeFiles/ur5e_gripper_visualization_uninstall:
-	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ur5e_gripper_visualization_uninstall: CMakeFiles/ur5e_gripper_visualization_uninstall
 ur5e_gripper_visualization_uninstall: CMakeFiles/ur5e_gripper_visualization_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ur5e_gripper_visualization_uninstall.dir/clean:
 .PHONY : CMakeFiles/ur5e_gripper_visualization_uninstall.dir/clean
 
 CMakeFiles/ur5e_gripper_visualization_uninstall.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/ur5e_gripper_visualization/CMakeFiles/ur5e_gripper_visualization_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_ws/src/UR5e_robotiq_gripper_RViz/UR5e_with_2F_140_robotiq_gripper_RViz/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/ur5e_gripper_visualization/CMakeFiles/ur5e_gripper_visualization_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ur5e_gripper_visualization_uninstall.dir/depend
 

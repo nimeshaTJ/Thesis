@@ -1,8 +1,8 @@
-# Install script for directory: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts
+# Install script for directory: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_v2_ws/install/rosparam_shortcuts")
+  set(CMAKE_INSTALL_PREFIX "/home/nimesha/Thesis/moveit_ur5_ws/install/rosparam_shortcuts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librosparam_shortcuts.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/librosparam_shortcuts.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/librosparam_shortcuts.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librosparam_shortcuts.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librosparam_shortcuts.so")
     file(RPATH_CHANGE
@@ -72,12 +72,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/example")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/example"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts:/home/nimesha/ros2_humble/ros2-linux/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts:/home/nimesha/ros2_humble/ros2-linux/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/example")
@@ -92,12 +92,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/node_parameters_example"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/node_parameters_example")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts" TYPE EXECUTABLE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/node_parameters_example")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/node_parameters_example" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/node_parameters_example")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/node_parameters_example"
-         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts:/home/nimesha/ros2_humble/ros2-linux/lib:"
+         OLD_RPATH "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts:/home/nimesha/ros2_humble/ros2-linux/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rosparam_shortcuts/node_parameters_example")
@@ -106,13 +106,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE DIRECTORY FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts/launch"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts/config"
+    "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts/launch"
+    "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts/config"
     )
 endif()
 
@@ -121,20 +121,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/gtest/cmake_install.cmake")
+  include("/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/gtest/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -142,7 +142,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,38 +150,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/environment" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/packages/rosparam_shortcuts")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_index/share/ament_index/resource_index/packages/rosparam_shortcuts")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake"
-         "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake")
+         "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -190,29 +190,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/CMakeFiles/Export/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts/cmake" TYPE FILE FILES
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_core/rosparam_shortcutsConfig.cmake"
-    "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/ament_cmake_core/rosparam_shortcutsConfig-version.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_core/rosparam_shortcutsConfig.cmake"
+    "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/ament_cmake_core/rosparam_shortcutsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/rosparam_shortcuts/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosparam_shortcuts" TYPE FILE FILES "/home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/rosparam_shortcuts/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -223,5 +223,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/rosparam_shortcuts/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nimesha/Thesis/moveit_ur5_ws/build/rosparam_shortcuts/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

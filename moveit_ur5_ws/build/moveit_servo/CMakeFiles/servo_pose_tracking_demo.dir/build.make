@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servo_pose_tracking_demo.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/servo_pose_tracking_demo.dir/progress.make
 include CMakeFiles/servo_pose_tracking_demo.dir/flags.make
 
 CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o: CMakeFiles/servo_pose_tracking_demo.dir/flags.make
-CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o: /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp
+CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o: /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp
 CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o: CMakeFiles/servo_pose_tracking_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o -MF CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o.d -o CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o -c /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o -MF CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o.d -o CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o -c /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp
 
 CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp > CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp > CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.i
 
 CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp -o CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo/src/cpp_interface_demo/pose_tracking_demo.cpp -o CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.s
 
 # Object files for target servo_pose_tracking_demo
 servo_pose_tracking_demo_OBJECTS = \
@@ -107,20 +107,20 @@ servo_pose_tracking_demo: /opt/ros/humble/lib/libcontrol_msgs__rosidl_generator_
 servo_pose_tracking_demo: /opt/ros/humble/lib/librealtime_tools.so
 servo_pose_tracking_demo: /opt/ros/humble/lib/libthread_priority.so
 servo_pose_tracking_demo: /opt/ros/humble/lib/liblow_pass_filter.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.5.5
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/librclcpp_lifecycle.so
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/librcl_lifecycle.so
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
@@ -132,47 +132,47 @@ servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liblifecycle_
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liblifecycle_msgs__rosidl_generator_c.so
 servo_pose_tracking_demo: /opt/ros/humble/lib/librsl.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.5.5
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libBulletCollision.so
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libLinearMath.so
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libBulletSoftBody.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.5.5
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/libkdl_parser.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_request_adapter.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.5.5
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libccd.so
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libm.so
 servo_pose_tracking_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so.1.9.8
 servo_pose_tracking_demo: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so.1.9.8
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/srdfdom/lib/libsrdfdom.so.2.0.4
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liburdf.so
 servo_pose_tracking_demo: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_transforms.so.2.5.5
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liburdfdom_sensor.so.3.0
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liburdfdom_model_state.so.3.0
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liburdfdom_model.so.3.0
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/liburdfdom_world.so.3.0
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/lib/libmoveit_utils.so.2.5.5
+servo_pose_tracking_demo: /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/lib/libmoveit_utils.so.2.5.5
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
@@ -368,7 +368,7 @@ servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/librcpputils.
 servo_pose_tracking_demo: /home/nimesha/ros2_humble/ros2-linux/lib/librcutils.so
 servo_pose_tracking_demo: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 servo_pose_tracking_demo: CMakeFiles/servo_pose_tracking_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable servo_pose_tracking_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable servo_pose_tracking_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/servo_pose_tracking_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -380,6 +380,6 @@ CMakeFiles/servo_pose_tracking_demo.dir/clean:
 .PHONY : CMakeFiles/servo_pose_tracking_demo.dir/clean
 
 CMakeFiles/servo_pose_tracking_demo.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_servo/CMakeFiles/servo_pose_tracking_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/moveit_servo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_servo/CMakeFiles/servo_pose_tracking_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/servo_pose_tracking_demo.dir/depend
 

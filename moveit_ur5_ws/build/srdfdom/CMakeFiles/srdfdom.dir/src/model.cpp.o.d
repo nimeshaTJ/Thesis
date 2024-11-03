@@ -1,7 +1,7 @@
 CMakeFiles/srdfdom.dir/src/model.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/src/model.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/src/model.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/model.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/model.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -233,7 +233,7 @@ CMakeFiles/srdfdom.dir/src/model.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/srdfdom/include/srdfdom/visibility_control.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/srdfdom/include/srdfdom/visibility_control.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

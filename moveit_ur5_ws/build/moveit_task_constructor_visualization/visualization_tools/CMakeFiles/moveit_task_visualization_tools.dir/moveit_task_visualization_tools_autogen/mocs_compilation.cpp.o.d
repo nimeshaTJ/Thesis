@@ -1,7 +1,7 @@
 visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_visualization_tools_autogen/mocs_compilation.cpp.o: \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/mocs_compilation.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_marker_visualization.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_marker_visualization.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -118,7 +118,7 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/marker_visualization.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/marker_visualization.h \
  /home/nimesha/ros2_humble/ros2-linux/include/rviz_common/rviz_common/properties/bool_property.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rviz_common/rviz_common/properties/property.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
@@ -288,8 +288,8 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /home/nimesha/ros2_humble/ros2-linux/include/rviz_common/rviz_common/visibility_control.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/class_forward.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/class_forward.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_core/include/moveit/macros/declare_ptr.h \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
@@ -341,8 +341,8 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /home/nimesha/ros2_humble/ros2-linux/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_task_solution_panel.cpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_panel.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_task_solution_panel.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_panel.h \
  /home/nimesha/ros2_humble/ros2-linux/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -756,10 +756,10 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_task_solution_visualization.cpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_visualization.h \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/moc_task_solution_visualization.cpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_task_constructor_visualization/visualization_tools/moveit_task_visualization_tools_autogen/CTAMQ4RPTO/../../../../../src/ws_moveit/src/moveit_task_constructor/visualization/visualization_tools/include/moveit/visualization_tools/task_solution_visualization.h \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
@@ -787,15 +787,15 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
@@ -823,10 +823,10 @@ visualization_tools/CMakeFiles/moveit_task_visualization_tools.dir/moveit_task_v
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__traits.hpp \
  /opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
- /home/nimesha/Thesis/moveit_ur5_v2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp \
+ /home/nimesha/Thesis/moveit_ur5_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp \
  /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp \
  /home/nimesha/ros2_humble/ros2-linux/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization
 
 # Utility rule file for moveit_trajectory_rviz_plugin_core_autogen.
 
@@ -67,8 +67,8 @@ include trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_aut
 include trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/progress.make
 
 trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target moveit_trajectory_rviz_plugin_core"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/trajectory_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target moveit_trajectory_rviz_plugin_core"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/trajectory_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/AutogenInfo.json Release
 
 moveit_trajectory_rviz_plugin_core_autogen: trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen
 moveit_trajectory_rviz_plugin_core_autogen: trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/build.make
@@ -79,10 +79,10 @@ trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir
 .PHONY : trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/build
 
 trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/trajectory_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/trajectory_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/cmake_clean.cmake
 .PHONY : trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/clean
 
 trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization/trajectory_rviz_plugin /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/trajectory_rviz_plugin /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization/trajectory_rviz_plugin /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/trajectory_rviz_plugin /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : trajectory_rviz_plugin/CMakeFiles/moveit_trajectory_rviz_plugin_core_autogen.dir/depend
 

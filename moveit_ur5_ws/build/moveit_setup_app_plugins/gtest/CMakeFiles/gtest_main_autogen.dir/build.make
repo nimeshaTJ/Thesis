@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins
 
 # Utility rule file for gtest_main_autogen.
 
@@ -67,8 +67,8 @@ include gtest/CMakeFiles/gtest_main_autogen.dir/compiler_depend.make
 include gtest/CMakeFiles/gtest_main_autogen.dir/progress.make
 
 gtest/CMakeFiles/gtest_main_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest_main"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target gtest_main"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest/CMakeFiles/gtest_main_autogen.dir/AutogenInfo.json Release
 
 gtest_main_autogen: gtest/CMakeFiles/gtest_main_autogen
 gtest_main_autogen: gtest/CMakeFiles/gtest_main_autogen.dir/build.make
@@ -79,10 +79,10 @@ gtest/CMakeFiles/gtest_main_autogen.dir/build: gtest_main_autogen
 .PHONY : gtest/CMakeFiles/gtest_main_autogen.dir/build
 
 gtest/CMakeFiles/gtest_main_autogen.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main_autogen.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main_autogen.dir/cmake_clean.cmake
 .PHONY : gtest/CMakeFiles/gtest_main_autogen.dir/clean
 
 gtest/CMakeFiles/gtest_main_autogen.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_setup_app_plugins/gtest/CMakeFiles/gtest_main_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins /home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_setup_app_plugins/gtest/CMakeFiles/gtest_main_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/CMakeFiles/gtest_main_autogen.dir/depend
 

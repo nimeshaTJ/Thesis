@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/nimesha/ros2_humble/ros2-linux/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nimesha/Thesis/moveit_ur5_v2_ws/build/pilz_industrial_motion_planner")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nimesha/Thesis/moveit_ur5_ws/build/pilz_industrial_motion_planner")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

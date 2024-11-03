@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization
+CMAKE_SOURCE_DIR = /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization
+CMAKE_BINARY_DIR = /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization
 
 # Utility rule file for moveit_robot_state_rviz_plugin_core_autogen.
 
@@ -67,8 +67,8 @@ include robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_a
 include robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/progress.make
 
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target moveit_robot_state_rviz_plugin_core"
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/robot_state_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target moveit_robot_state_rviz_plugin_core"
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/robot_state_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/AutogenInfo.json Release
 
 moveit_robot_state_rviz_plugin_core_autogen: robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen
 moveit_robot_state_rviz_plugin_core_autogen: robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/build.make
@@ -79,10 +79,10 @@ robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.d
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/build
 
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/clean:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/robot_state_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/cmake_clean.cmake
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/robot_state_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/cmake_clean.cmake
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/clean
 
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/depend:
-	cd /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization/robot_state_rviz_plugin /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/robot_state_rviz_plugin /home/nimesha/Thesis/moveit_ur5_v2_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization /home/nimesha/Thesis/moveit_ur5_ws/src/ws_moveit/src/moveit2/moveit_ros/visualization/robot_state_rviz_plugin /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/robot_state_rviz_plugin /home/nimesha/Thesis/moveit_ur5_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_autogen.dir/depend
 
